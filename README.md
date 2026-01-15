@@ -11,9 +11,9 @@ This repository serves a dual purpose:
 
 This repository is intended to be a **shared workspace** to **collaboratively review and refine** the game rules.
 
----
 instructions for contributing with Pull Request: CONTRIBUTING_[EN/IT]
---
+
+---
 
 ## License
 
