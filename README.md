@@ -2,8 +2,6 @@
 
 This repository serves a dual purpose:
 
-bello ma lo farei a tema pinguini
-
 1. **Define and document the rules of _Super Competitive Arena_**  
 2. **Provide the tools to generate the rulebook in both `.pdf` and `.md` formats**, starting from:
    - the `.svg` file
@@ -14,6 +12,8 @@ bello ma lo farei a tema pinguini
 This repository is intended to be a **shared workspace** to **collaboratively review and refine** the game rules.
 
 ---
+instructions for contributing with Pull Request: CONTRIBUTING_[EN/IT]
+--
 
 ## License
 
