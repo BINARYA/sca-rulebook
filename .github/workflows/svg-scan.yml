@@ -1,0 +1,20 @@
+name: SVG security scan
+
+on:
+  pull_request:
+    paths:
+      - '**/*.svg'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan SVG changes
+        run: bash scripts/check_svg.sh "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}"
